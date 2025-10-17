@@ -15,7 +15,7 @@
 #import <SDWebImage/SDImageCache.h>
 #import <SDWebImage/SDAnimatedImageView.h>
 #else
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "UIView+WebCache.h"
 #import "SDWebImageDownloader.h"
 #import "SDImageCache.h"
